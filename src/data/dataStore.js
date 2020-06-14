@@ -27,11 +27,11 @@ export const listData = {
       cards: [
         {
           key: 0,
-          title: 'This Is Going to Hurt',
+          title: 'Wild at Heart: Discovering the Secret of a Man Soul',
         },
         {
           key: 1,
-          title: 'Interpreter of Maladies',
+          title: 'Earthsea',
         },
       ],
     },
@@ -42,11 +42,11 @@ export const listData = {
       cards: [
         {
           key: 0,
-          title: 'Harry Potter',
+          title: 'The Lord of the ring',
         },
         {
           key: 1,
-          title: 'Star Wars',
+          title: 'The Inception',
         },
       ],
     },
@@ -57,7 +57,7 @@ export const listData = {
       cards: [
         {
           key: 0,
-          title: 'The Witcher',
+          title: 'Gothic',
         },
         {
           key: 1,
