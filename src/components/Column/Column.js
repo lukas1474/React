@@ -4,7 +4,7 @@ import {settings} from '../../data/dataStore';
 import styles from './Column.scss';
 import Card from '../Card/Card';
 import Creator from '../Creator/Creator';
-import Icon from '../Icon/Icon'
+import Icon from '../Icon/Icon';
 
 class Column extends React.Component  {
   state = {
@@ -12,8 +12,8 @@ class Column extends React.Component  {
     
   }
   static propTypes = {
-      title: PropTypes.node.isRequired,
-      children: PropTypes.node,
+    title: PropTypes.node.isRequired,
+    children: PropTypes.node,
   }
 
   addCard(title){
@@ -25,8 +25,8 @@ class Column extends React.Component  {
             key: state.cards.length ? state.cards[state.cards.length-1].key+1 : 0,
             title,
             icon: 'list-alt',
-          }
-        ]
+          },
+        ],
       }
     ));
   }
@@ -40,7 +40,7 @@ class Column extends React.Component  {
         ))}
         <Creator text={settings.cardCreatorText} action={title => this.addCard(title)}/>  
       </section>
-    )
+    );
   }
 }
 
