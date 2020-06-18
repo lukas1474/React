@@ -112,27 +112,27 @@ const cards = [
   {
     id: 'card-1',
     columnId: 'column-1',
-    title: 'This Is Going to Hurt',
+    title: 'Wild at Heart: Discovering the Secret of a Man Soul',
   },
   {
     id: 'card-2',
     columnId: 'column-1',
-    title: 'Interpreter of Maladies',
+    title: 'Earthsea',
   },
   {
     id: 'card-3',
     columnId: 'column-2',
-    title: 'Harry Potter',
+    title: 'The Lord of the ring',
   },
   {
     id: 'card-4',
     columnId: 'column-2',
-    title: 'Star Wars',
+    title: 'The Inception',
   },
   {
     id: 'card-5',
     columnId: 'column-3',
-    title: 'The Witcher',
+    title: 'Gothic',
   },
   {
     id: 'card-6',
